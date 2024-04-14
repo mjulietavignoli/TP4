@@ -28,7 +28,7 @@ let opcion = parseInt(
 );
 let ancho;
 let alto;
-let rectangulo = new Rectangulo();
+const rectangulo = new Rectangulo();
 while (opcion !== 6) {
   if (opcion === 1 || opcion === 2) {
     alto = Number(prompt("Ingrese el alto del rectangulo"));

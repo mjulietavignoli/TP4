@@ -15,9 +15,9 @@ class Producto {
   }
 }
 
-let prod1 = new Producto(1,"Anillo",1000);
-let prod2 = new Producto(2, "Collar", 3000);
-let prod3 = new Producto(3, "Pulsera", 1500);
+const prod1 = new Producto(1,"Anillo",1000);
+const prod2 = new Producto(2, "Collar", 3000);
+const prod3 = new Producto(3, "Pulsera", 1500);
 
 let productos = [prod1,prod2,prod3];
 
