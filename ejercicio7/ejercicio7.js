@@ -16,3 +16,8 @@ huecosLibres(): indica cuántos contactos más podemos ingresar.
 
 Crea un menú con opciones que serán seleccionadas por el usuario usando un prompt, las salidas de las operaciones seleccionadas por el usuario se pueden mostrar en pantalla y  por consola.
  */
+let tamañoMax= prompt("Ingrese el tamaño máximo de la agenda");
+
+let opcion = prompt(
+    "Eliga la opción \n1. Añadir contacto \n2. Mostrar agenda  \n3. Buscar contacto \n4. Eliminar contacto \n5. Ver si mi agenda está llena \n6. Ver cuántos contactos más puedo ingresar \n7. Salir"
+  );
